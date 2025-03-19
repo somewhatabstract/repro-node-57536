@@ -1,0 +1,19 @@
+{
+  "name": "repro-node-57536",
+  "version": "0.0.1",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b",
+  "dependencies": {
+    "@swc-node/register": "^1.10.10",
+    "@types/node": "^20.17.24",
+    "piscina": "^4.9.2",
+    "typescript": "5.7.2"
+  }
+}

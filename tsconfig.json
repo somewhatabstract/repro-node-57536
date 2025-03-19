@@ -1,0 +1,47 @@
+/* Visit https://aka.ms/tsconfig to read more about this file */
+{
+    "include": [
+        "src/**/*",
+    ],
+    "compilerOptions": {
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+        "types": [
+            "node"
+        ],
+        "noEmit": true,
+        "paths": {},
+        /* Language and Environment */
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "target": "ES2018",
+        "jsx": "react-jsx",
+        /* Modules */
+        // Required for dynamic imports even though we aren't using
+        // tsc to output any modules.
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        /* Interop Constraints */
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        /* Type Checking */
+        "strict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "noImplicitAny": false,
+        /* Completeness */
+        "skipDefaultLibCheck": true, // it's safe to assume that built-in .d.ts files are correct
+        "skipLibCheck": true, // Have to skip node_modules or we'll get errors from third party libs
+        /* Preference */
+        // If this is disabled, TS will sometimes just delete dead code, which
+        // can be confusing!
+        "allowUnreachableCode": true
+    }
+}
